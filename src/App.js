@@ -9,6 +9,9 @@ import SectionMain1 from './components/SectionMain1/SectionMain1'
 import Footer from './components/Footer/Footer'
 import Login from './components/Login/Login'
 import Home from './components/Home/Home'
+import Contacts from './components/Contacts/Contacts'
+import Performance from './components/Performance/Performance'
+import Blog from './components/Blog/Blog'
 import routes from './routes'
 
 class App extends Component {
@@ -42,7 +45,7 @@ class App extends Component {
     {this.state.user ? (<Home />) : (<Login />)}
         {/* <Header /> */}
         <Navbar1 />
-        <ModalMain />        
+        {/* <ModalMain />         */}
         <Switch>
           {routes.map((route, idx) => <Route key={idx} {...route} />)}                            
         </Switch>                   

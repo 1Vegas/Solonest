@@ -44,11 +44,11 @@ export default class Login extends React.Component {
         <img src={logo} alt="logo"/>
         <form>
           <div className="edit">
-            <label for="exampleInputEmail1">Email address</label>
+            {/* <label for="exampleInputEmail1">Email address</label> */}
             <input  value={this.state.email} onChange={this.handleChange} type="email" name="email"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" /> 
             {/* <label for="exampleInputPassword1">Password</label> */}
             <input  value={this.state.password} onChange={this.handleChange} type="password" name="password"  id="exampleInputPassword1" placeholder="Password" />
-          <button  type="submit" onClick={this.login} class="btn btn-secondary">Войти</button>
+          <button  type="submit" onClick={this.login} className="btn btn-secondary">Войти</button>
           </div>
         </form>
         </header>	
