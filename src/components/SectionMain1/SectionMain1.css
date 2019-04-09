@@ -1,0 +1,13 @@
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    font-family: 'Kelly Slab', cursive;
+}
+
+.blockquote {
+    font-size: 20px;
+}
+.promo {
+    text-align: center;
+    margin-bottom: 15px;
+}

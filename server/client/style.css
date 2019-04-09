@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    background-color: black;
+    /*background-image: url(../img/Solonest\ 2012.jpg);*/
+    background-size: 100%;    
+    background-position: center bottom;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 1140px;
+  }
+
+  .center {
+    color: seashell
+  }
+  

@@ -1,0 +1,10 @@
+.addon {
+    display: flex; 
+}
+
+.edit {
+    display: flex;
+    margin-top: 35px;
+    height: 30px;
+    margin-right: 5px;
+}

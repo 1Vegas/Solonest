@@ -1,0 +1,9 @@
+.addon {
+    display: flex; 
+    justify-content: space-between;
+}
+.edit {
+    display: flex;
+    margin-top: 35px;
+    height: 30px;
+}
