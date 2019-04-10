@@ -7,11 +7,11 @@ export default class Audio extends Component {
           {
           id: 1,
           name: 'Пустыня',
-          link: <iframe width="560" height="315" src="https://www.youtube.com/embed/HJN04GI3zHU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+          link: <iframe width="560" height="315" src="https://www.youtube.com/embed/HJN04GI3zHU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>,
           },{
           id: 2,
           name: 'Пустыня',
-          link: <iframe width="560" height="315" src="https://www.youtube.com/embed/HJN04GI3zHU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+          link: <iframe width="560" height="315" src="https://www.youtube.com/embed/HJN04GI3zHU" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>,
           }, {
           id: 3,
           name: 'Ну и что',

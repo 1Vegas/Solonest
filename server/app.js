@@ -20,6 +20,7 @@ app.use(express.static(clientPath))
 app.listen(port, () => {
   console.log(`Server has been started on port ${port}`)
 })
+//следующий код - эксперимент с реактом, к блогу не имеет отношения
 app.get('/express_backend', (req, res) => {
   res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT' });
 });

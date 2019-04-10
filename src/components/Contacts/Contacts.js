@@ -14,10 +14,10 @@ export default class Contacts extends Component {
             <div class="card-body">
                 <h5 class="card-title">Алексей Нестеров</h5>
                 <p class="card-text">+7-916-615-8606 (г. Москва): голосом, Whatsup, Viber</p>
-                <a href="https://www.facebook.com/profile.php?id=100005488695792" class="btn btn-success" target="_blank">Facebook</a>
-                <a href="https://www.facebook.com/andrey.solomennikov3" class="btn btn-info" target="_blank">Facebook(Андрей)</a>
-                <a href="https://www.facebook.com/koyote.solonest" class="btn btn-primary" target="_blank">Facebook(Алексей)</a>
-                <a href="https://www.youtube.com/user/koyotesolonest" class="btn btn-danger" target="_blank">YouTube</a>
+                <a href="https://www.facebook.com/profile.php?id=100005488695792" class="btn btn-success" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.facebook.com/andrey.solomennikov3" class="btn btn-info" target="_blank" rel="noopener noreferrer">Facebook(Андрей)</a>
+                <a href="https://www.facebook.com/koyote.solonest" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Facebook(Алексей)</a>
+                <a href="https://www.youtube.com/user/koyotesolonest" class="btn btn-danger" target="_blank" rel="noopener noreferrer">YouTube</a>
             </div>
             <div class="card-footer text-muted">
                 Ваш контакт очень важен для нас

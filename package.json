@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "classnames": "^2.2.6",
     "express": "^4.16.4",
     "firebase": "^5.9.3",
     "mongoose": "^5.4.19",
@@ -29,5 +30,5 @@
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
-  "proxy":"http://localhost:5000/"
+  "proxy": "http://localhost:5000/"
 }

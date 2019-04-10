@@ -31,13 +31,15 @@ export default class Blog extends Component {
     
       render() {
         return (
-          <div className="Blog">
+          <div className="Blog container">
             {/* <header className="App-header">              
               <h1 className="App-title">Welcome to React</h1>
             </header> */}
              {/* Render the newly fetched data inside of this.state.data  */}
-             <a href="http://show.solonest.moscow/" class="btn btn-success" target="_blank">Старый Блог</a>
-            <p className="Blog-intro">{this.state.data}</p>
+             <iframe src="http://show.solonest.moscow" width="1140" height="550" align="center"></iframe>
+             <br />
+             <a href="http://solonest.blogspot.com" class="btn btn-secondary butt" target="_blank" rel="noopener noreferrer">Старый Блог</a>             
+             <p className="Blog-intro">{this.state.data}</p>
           </div>
         );
       }
