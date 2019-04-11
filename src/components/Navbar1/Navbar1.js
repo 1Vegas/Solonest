@@ -7,7 +7,7 @@ export default class Navbar1 extends Component {
       return (
         <div className="App">
          <nav>
-	  <ul className="menu">		
+	  <ul className="menu container">		
       <li><Link to="/">Главная</Link></li>  
       {/* <li><a href="http://show.solonest.moscow" target="_blank" rel="noopener noreferrer">Блог</a></li> */}
       <li><Link to="/blog">Блог</Link></li>

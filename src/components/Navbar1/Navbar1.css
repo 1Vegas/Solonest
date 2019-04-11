@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     font-family: 'Kelly Slab', cursive;    
-    background-image: url(./../../img/bg1.png);
+    /* background-image: url(./../../img/bg1.png);
     background-repeat: repeat;
-    background-position: center bottom;
+    background-position: center bottom; */
 }
 .menu a {
     text-decoration: none;
@@ -22,4 +22,11 @@
 
 .menu a:hover {
     color: darkgoldenrod;
+}
+
+nav {
+    background-image: url(./../../img/bg1.png);
+    background-repeat: repeat;
+    background-position: center bottom; 
+    margin-bottom: 15px; 
 }
